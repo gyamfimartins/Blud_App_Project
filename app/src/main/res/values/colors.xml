@@ -7,4 +7,35 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#4dc4e5</color>
+    <color name="primary_dark">#1c9bbf</color>
+    <color name="accent">#fff</color>
+    <color name="window_background">#082a34</color>
+    <color name="dial">#0c4151</color>
+    <color name="usage">#1c9bbf</color>
+    <color name="text">#fff</color>
+
+    <color name="main_background">#0099cc</color>
+    <color name="main_background_light">#33b5e5</color>
+
+    <!--  common colors -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack2">#02010E</color>
+    <color name="colorBlack_16">#29000000</color>
+    <color name="colorGrayLight">#C1C0C8</color>
+    <color name="colorGrayLight1">#F5F6FA</color>
+    <color name="colorGrayLight2">#6C7B8A</color>
+    <color name="colorGrayLight40">#66C1C0C8</color>
+    <color name="colorGrayMedium">#91909a</color>
+    <color name="colorGrayMedium2">#7E7E7E</color>
+    <color name="colorGrayDark">#3C3B45</color>
+    <color name="colorGrayDark2">#43434e</color>
+    <color name="colorGrayDark3">#484848</color>
+    <color name="colorOrange">#FF935D</color>
+    <color name="colorOrange2">#F4925D</color>
+    <color name="colorYellow">#FFC107</color>
+    <color name="third_slide_background">#009688</color>
+    <color name="first_slide_background">#E91E63</color>
 </resources>

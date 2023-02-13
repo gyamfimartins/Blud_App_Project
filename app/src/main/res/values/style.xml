@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_error">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+        <item name="android:textColor">@color/colorOrange2</item>
+    </style>
+
+    <!-- ========================================================== -->
+    <!-- TextViews -->
+    <!-- ========================================================== -->
+    <style name="text_welcome_title">
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/avenir_black</item>
+    </style>
+
+    <style name="text_welcome_sub_title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:fontFamily">@font/avenir_black</item>
+    </style>
+
+    <style name="text_welcome_call_out" parent="text_welcome_sub_title">
+        <item name="android:textSize">49sp</item>
+    </style>
+
+    <style name="text_header_title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">@font/avenir_black</item>
+        <item name="android:lineSpacingExtra">-10sp</item>
+    </style>
+
+    <style name="text_header_sub_title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">@font/avenir_black</item>
+    </style>
+
+    <style name="label_content_large">
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+    </style>
+
+    <style name="label_content_medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+    </style>
+
+    <style name="label_content_small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+    </style>
+
+    <style name="img_thought_bubble_medium">
+        <item name="android:layout_width">13dp</item>
+        <item name="android:layout_height">13dp</item>
+    </style>
+
+    <style name="img_thought_bubble_small">
+        <item name="android:layout_width">9dp</item>
+        <item name="android:layout_height">9dp</item>
+    </style>
+
+    <style name="text_bubble_title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+    </style>
+
+    <!-- ========================================================== -->
+    <!-- EditText -->
+    <!-- ========================================================== -->
+
+    <style name="text_edit1">
+        <item name="android:layout_width">@dimen/dimen_0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingBottom">@dimen/dimen_8dp</item>
+        <item name="android:paddingTop">@dimen/dimen_8dp</item>
+        <item name="android:textColor">@color/colorGrayDark2</item>
+        <item name="android:textColorHint">@color/colorGrayLight</item>
+        <item name="android:background">@drawable/bg_edittext_icon</item>
+    </style>
+
+    <style name="text_edit2">
+        <item name="android:layout_width">@dimen/dimen_0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textColor">@color/colorGrayDark2</item>
+        <item name="android:textColorHint">@color/colorGrayLight</item>
+    </style>
+
+    <!-- ========================================================== -->
+    <!-- Button -->
+    <!-- ========================================================== -->
+
+    <style name="button_dark_purple_gradient">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@drawable/button_rounded_dark_gradient</item>
+        <item name="android:fontFamily">@font/avenir_heavy</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="label_header_2">
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">@font/avenir_heavy</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+</resources>

@@ -9,4 +9,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started">Get Started</string>
+    <string name="ever_wondered_nif_your_phone_ncan_do_more">Ever wondered\nif your phone\ncan do more?</string>
+    <string name="blud">Blud</string>
+    <string name="use_your_phone_to_intervene">Use your phone to intervene</string>
 </resources>
