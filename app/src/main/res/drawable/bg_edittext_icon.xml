@@ -3,7 +3,7 @@
 
     <item>
         <shape>
-            <corners android:radius="@dimen/dimen_40dp" />
+            <corners android:radius="@dimen/dimen_0dp" />
             <solid android:color="@color/colorGrayLight1" />
         </shape>
     </item>
@@ -25,7 +25,7 @@
     </item>
     <item>
         <shape>
-            <corners android:radius="@dimen/dimen_40dp" />
+            <corners android:radius="@dimen/dimen_0dp" />
             <solid android:color="@android:color/transparent" />
             <stroke
                 android:width="@dimen/dimen_1dp"

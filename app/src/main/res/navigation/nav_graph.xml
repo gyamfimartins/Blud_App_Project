@@ -9,4 +9,19 @@
         android:name="com.example.bludappproject.ui.GetStartedFragment"
         android:label="fragment_get_started"
         tools:layout="@layout/fragment_get_started" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.bludappproject.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" /><action android:id="@+id/action_global_loginFragment" app:destination="@id/loginFragment"/>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.bludappproject.ui.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" /><action android:id="@+id/action_global_settingsFragment" app:destination="@id/settingsFragment"/>
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.bludappproject.ui.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard" /><action android:id="@+id/action_global_dashboardFragment" app:destination="@id/dashboardFragment"/>
 </navigation>

@@ -102,11 +102,18 @@
     <!-- Button -->
     <!-- ========================================================== -->
 
-    <style name="button_dark_purple_gradient">
+    <style name="rounded_yellow_button">
         <item name="android:textColor">@color/colorBlack</item>
         <item name="android:background">@drawable/button_rounded_dark_gradient</item>
         <item name="android:fontFamily">@font/avenir_heavy</item>
         <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="curved_yellow_button">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@drawable/button_curved_dark_gradient</item>
+        <item name="android:fontFamily">@font/avenir_medium</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
     <style name="label_header_2">

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/settingsContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/box_rounded_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/img_flair_octagon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_octagram_half_white" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back_button"
+        android:visibility="invisible"
+        android:elevation="@dimen/dimen_2dp"
+        app:layout_constraintEnd_toEndOf="@+id/img_flair_octagon"
+        app:layout_constraintStart_toStartOf="@+id/img_flair_octagon"
+        app:layout_constraintBottom_toBottomOf="@+id/img_flair_octagon"
+        app:layout_constraintTop_toTopOf="@id/img_flair_octagon"
+        app:srcCompat="@drawable/ic_baseline_arrow_back" />
+
+    <ImageView
+        android:id="@+id/img_flair_soft_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_flair_octagon"
+        app:srcCompat="@drawable/ic_side_next" />
+
+    <ImageView
+        android:id="@+id/img_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/next_button"
+        android:elevation="@dimen/dimen_2dp"
+        app:layout_constraintEnd_toEndOf="@+id/img_flair_soft_triangle"
+        app:layout_constraintStart_toStartOf="@+id/img_flair_soft_triangle"
+        app:layout_constraintBottom_toBottomOf="@+id/img_flair_soft_triangle"
+        app:layout_constraintTop_toTopOf="@id/img_flair_soft_triangle"
+        app:srcCompat="@drawable/ic_baseline_navigate_next" />
+
+    <include layout="@layout/settings_view"
+        android:id="@+id/settingsview"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_flair_soft_triangle"
+        app:layout_constraintStart_toEndOf="@+id/img_flair_octagon"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

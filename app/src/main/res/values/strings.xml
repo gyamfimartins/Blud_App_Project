@@ -1,18 +1,43 @@
 <resources>
     <string name="app_name">Blud App Project</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next_button">Next button</string>
+    <string name="back_button">Back button</string>
+    <string name="please_enter_your_nickname">Please enter your nickname</string>
     <string name="get_started">Get Started</string>
     <string name="ever_wondered_nif_your_phone_ncan_do_more">Ever wondered\nif your phone\ncan do more?</string>
     <string name="blud">Blud</string>
     <string name="use_your_phone_to_intervene">Use your phone to intervene</string>
+    <string name="guest_login">Guest Login</string>
+    <string name="gmail_login">GMail Login</string>
+    <string name="dashboard">Dashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="random">Random</string>
+    <string name="education">Education</string>
+    <string name="recreational">Recreational</string>
+    <string name="social">Social</string>
+    <string name="charity">Charity</string>
+    <string name="diy">DIY</string>
+    <string name="cooking">Cooking</string>
+    <string name="relaxation">Relaxation</string>
+    <string name="music">Music</string>
+    <string name="busy_work">Busy Work</string>
+    <string name="activity_based_on_participants">Activity based on Participants</string>
+    <string name="login">Login</string>
+    <string name="select_an_interest">Select an interest</string>
+    <string name="empty_string_error_message">Please enter a number greater than zero but less or equal to five</string>
+    <string name="cancel">Cancel</string>
+    <string name="num_participants">Number of participants</string>
+    <string name="more">More</string>
+    <string name="refresh">refresh</string>
+    <string name="accept">Accept</string>
+    <string name="ok">OK</string>
+    <string name="num_title">Select number of participants</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
 </resources>

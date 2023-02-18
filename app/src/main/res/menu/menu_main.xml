@@ -6,5 +6,12 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_more"
+        android:orderInCategory="100"
+        android:title="@string/more"
+        android:icon="@drawable/baseline_view_list_24"
+        app:showAsAction="ifRoom" />
 </menu>
