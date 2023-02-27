@@ -1,19 +1,23 @@
 package com.example.bludappproject
 
+import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
-import androidx.navigation.Navigation
-import androidx.navigation.ui.setupWithNavController
+import com.example.bludappproject.data.SharedPrefsWrapper
 import com.example.bludappproject.databinding.ActivityMainBinding
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.material.bottomsheet.BottomSheetDialog
 
 class MainActivity : AppCompatActivity() {
 
@@ -83,7 +87,20 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.action_more -> {
+                val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                    .requestEmail()
+                    .build()
 
+                val gsc = GoogleSignIn.getClient(this,gso)
+
+                gsc.signOut().addOnSuccessListener {
+                    Toast.makeText(this, getString(R.string.logout_success), Toast.LENGTH_LONG).show()
+                    SharedPrefsWrapper.isLoggedIn = false
+                    Navigation.findNavController(
+                        this@MainActivity,
+                        R.id.nav_host_fragment_content_main
+                    ).navigate(R.id.getStartedFragment)
+                }
                 return true
             }
             else -> super.onOptionsItemSelected(item)
@@ -92,7 +109,20 @@ class MainActivity : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
+        navController.currentDestination
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        supportFragmentManager.primaryNavigationFragment?.childFragmentManager?.fragments?.forEach { fragment ->
+            fragment.onActivityResult(requestCode, resultCode, data)
+        }
+    }
+
+
+
+
+
 }

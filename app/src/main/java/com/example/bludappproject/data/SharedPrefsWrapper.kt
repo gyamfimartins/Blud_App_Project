@@ -12,6 +12,7 @@ private const val KEY_NICKNAME = "nickname_key"
 private const val KEY_LOGIN_STATUS = "login_status"
 private const val KEY_INTEREST = "interest"
 private const val KEY_NUMBER_OF_PARTICIPANTS = "number_of_participants"
+private const val KEY_UNIQUE_ID = "unique_id"
 
 /**
  * Singleton wrapper to access Shared Prefs.
@@ -38,5 +39,9 @@ object SharedPrefsWrapper {
     var numberOfParticipants: String?
         get() = sharedPrefs.getString(KEY_NUMBER_OF_PARTICIPANTS, NUMBER_OF_PARTICIPANTS_DEFAULT)
         set(value) = sharedPrefs.edit { putString(KEY_NUMBER_OF_PARTICIPANTS, value) }
+
+    var uniqueId: String?
+        get() = sharedPrefs.getString(KEY_UNIQUE_ID, null)
+        set(value) = sharedPrefs.edit { putString(KEY_UNIQUE_ID, value) }
 
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvconnect"
+        style="@style/label_content_large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:text="@string/connect_to_a_group"
+        android:padding="@dimen/dimen_8dp" />
+
+    <TextView
+        android:id="@+id/tvlogout"
+        style="@style/label_content_large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:text="@string/logout"
+        android:padding="@dimen/dimen_8dp" />
+
+</LinearLayout>

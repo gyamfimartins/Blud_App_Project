@@ -40,4 +40,8 @@
     <string name="three">3</string>
     <string name="four">4</string>
     <string name="five">5</string>
+    <string name="login_error">Something went wrong</string>
+    <string name="logout">Logout</string>
+    <string name="connect_to_a_group">Connect to a group</string>
+    <string name="logout_success">You logged out successfully</string>
 </resources>

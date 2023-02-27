@@ -12,6 +12,6 @@
         android:id="@+id/action_more"
         android:orderInCategory="100"
         android:title="@string/more"
-        android:icon="@drawable/baseline_view_list_24"
+        android:icon="@drawable/baseline_logout_24"
         app:showAsAction="ifRoom" />
 </menu>

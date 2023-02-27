@@ -24,4 +24,9 @@
         android:name="com.example.bludappproject.ui.DashboardFragment"
         android:label="@string/dashboard"
         tools:layout="@layout/fragment_dashboard" /><action android:id="@+id/action_global_dashboardFragment" app:destination="@id/dashboardFragment"/>
+    <fragment
+        android:id="@+id/savedActivitiesFragment"
+        android:name="com.example.bludappproject.ui.SavedActivitiesFragment"
+        android:label="Saved Activities"
+        tools:layout="@layout/fragment_saved_activities" /><action android:id="@+id/action_global_savedActivitiesFragment" app:destination="@id/savedActivitiesFragment"/>
 </navigation>
