@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303404173651",
+    "project_id": "blud-app-project",
+    "storage_bucket": "blud-app-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303404173651:android:3e6825a720859ef65839a6",
+        "android_client_info": {
+          "package_name": "com.example.bludappproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303404173651-s29qmf60no0s73sdomjjbdjd2l3b5s8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPJQiteanTyYlQrvOuvfLPka9USFioEeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303404173651-s29qmf60no0s73sdomjjbdjd2l3b5s8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
